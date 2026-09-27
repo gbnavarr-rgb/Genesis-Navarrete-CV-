@@ -1,6 +1,6 @@
 ---
-title: "Nick Strayer's CV"
-author: Nick Strayer
+title: "Genesis Navarrete CV"
+author: Genesis Navarrete
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -63,27 +63,25 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 
-- <i class="fa fa-envelope"></i> nick.strayer@gmail.com
-- <i class="fa fa-twitter"></i> NicholasStrayer
-- <i class="fa fa-github"></i> github.com/nstrayer
-- <i class="fa fa-link"></i> [nickstrayer.me](http://nickstrayer.me/)
-- <i class="fa fa-phone"></i> (734) 645-0110
+- <i class="fa fa-envelope"></i> gbnavarr@asu.edu
+- <i class="fa fa-github"></i> https://github.com/gbnavarr-rgb
+- <i class="fa fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/genesis-navarrete-a28bb022a/)
 
 
 
-Language Skills {#skills}
+
+Skills & Certifications {#skills}
 --------------------------------------------------------------------------------
 
 ```{r}
 skills <- tribble(
   ~skill,               ~level,
-  "R",                  5,
-  "Javascript (d3.js)", 4.5,
-  "Python",             4,
-  "Bash",               3.5,
-  "SQL",                3,
-  "C++",                3,
-  "AWK",                3
+  "Basic Life Support for Healthcare and Public Safety (BLS)", 5, 
+  "RCR - Graduate Student and Postdoctoral Researcher Responsible Conduct of Research CITI Program",             5,
+  "NVIVO",              5,
+  "R",                  4.5,
+  "STATA",              4.5,
+  "Spanish",            4,
 )
 
 build_skill_bars(skills)
@@ -108,14 +106,14 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Nick Strayer {#title}
+Genesis Navarrete {#title}
 --------------------------------------------------------------------------------
 
 
 ```{r}
-intro_text <- "I have made [visualizations viewed by hundreds of thousands of people](https://www.nytimes.com/interactive/2016/08/26/us/college-student-migration.html), [sped up query times for 25 terabytes of data by an average of 4,800 times](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/), and built [packages for R](https://github.com/nstrayer/shinysense) that let you [do magic](http://nickstrayer.me/dataDayTexas/).
+intro_text <- "A third year doctoral student with a research interest in intelligence-led policing and a bilingual multi-tasker dedicated to completing objectives. Ambitious, career-focused, and confident individual ready to further extend her knowledge and apply her education at a professional level in the workforce.
 
-Currently searching for a data science position that allows me to build tools using visualization and machine learning to help people explore and understand their data. 
+Currently searching for a research and data analyst  position that allows me to build tools using visualization and machine learning to help people explore and understand their data in a goverment context. 
 "
 
 cat(sanitize_links(intro_text))
@@ -145,7 +143,7 @@ Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ::: aside
-I have worked in a variety of roles ranging from journalist to software engineer to data scientist. I like collaborative environments where I can learn from my peers. 
+My work in emergency response, investigations, and asset protection has strengthened my ability to assess situations, document findings, and communicate clearly under pressure.
 :::
 
 ```{r}
@@ -160,7 +158,7 @@ Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
 ::: aside
-I am passionate about education. I believe that no topic is too complex if the teacher is empathetic and willing to think about new methods of approaching task. 
+I  teach courses in policing and criminal justice and enjoy helping students connect research and theory to the decisions practitioners make every day.
 :::
 
 ```{r}
